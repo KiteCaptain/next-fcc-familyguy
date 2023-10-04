@@ -7,6 +7,8 @@ Renders a Next.js page component that displays detailed information about a char
 @returns {JSX.Element} The rendered page component.
 */
 
+// Some changes 
+
 import { Container } from '@/components'
 import { getAllCharacters, getCharacterBySlug } from '@/lib/characters'
 import Image from 'next/image'
